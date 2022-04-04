@@ -25,3 +25,5 @@ if (isset($_GET['code'])) {
     header('Location: ' . $session->getAuthorizeUrl($options));
     die();
 }
+
+//archivo modificado 
